@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+    <title>ecommerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" type=text/css href="style.css" />
+</head>
+<body>
+    <div class="header">
+       <div class="head-mid"><strong><a href="index.html" >S H O P</a></strong></div>
+       <a href="cart.html" class='cart-logo-link'><img src='image/cart1.png'class='cart-logo'></a>
+    </div>
+    <div class='checkout-nav'>
+        <p class='checkout-title'>Checkout</p>
+        <p class='checkout-desc'>Shop is a demo app - form data will not be sent</p>      
+    </div>
+   
+    <div class='body-content-checkout'>
+        <div class='checkout-first-half'>
+            <h5>Account Information</h5>
+             <div class='form'>        
+                <input type="email" name='email'  autocomplete="off" required/>
+                <label for="email" class='lable-name'>
+                  <span class='content-name'>Email</span>
+                </label>  
+             </div>
+             
+             <div class='form'>
+            <input type="tel" name="phone" autocomplete="off"  required/>
+            <label for="phone" class='lable-name'>
+              <span class='content-name'>Phone Number</span> 
+            </label>
+             </div>
+
+             <h5>Shipping Address</h5>
+             <div class='form'>
+            <input type="text" name='add' autocomplete="off" required/>
+            <label for="phone" class='lable-name'>
+                <span class='content-name'>Address</span> 
+            </label>
+            </div>
+
+
+            <div class='form'>
+            <input type="text" name='city' autocomplete="off" required/>
+            <label for="city" class='lable-name'>
+                <span class='content-name'>City</span> 
+            </label>
+            </div>
+        <div class='checkout-field pro-postal' >
+            <div class='form' id='state-pro-id'>
+            <input type="text" name='state' class='state-zip'  autocomplete="off" required/>
+            <label for="phone" class='lable-name'>
+                <span class='content-name'>State/Province</span> 
+            </label>
+            </div>
+             
+            <div class='form' id="state-pro-id">
+            <input type="text" name='zip' class='state-zip'  autocomplete="off" required/>
+            <label for="phone" class='lable-name'>
+                <span class='content-name'>Zip/Postal code</span> 
+            </label>
+            </div>
+         </div>
+
+
+            <div class='checkout-field'>
+            <p for='country'>Country</p>
+            <select class='country-dropdown'>
+                <option>United States</option>
+                <option>Canada</option>
+            </select>
+            </div>
+
+        </div>
+
+        <div class='checkout-second-half'>
+            <h5>Payment Method</h5>
+
+            <div class='form'>
+            <input type="text" name='name' autocomplete="off" required/>
+            <label for="phone" class='lable-name'>
+                <span class='content-name'>Cardholder Name</span> 
+                </label>
+            </div>
+
+            <div class='form'>
+            <input type="text" name='card-no'  autocomplete="off" required/>
+            <label for="phone" class='lable-name'>
+                <span class='content-name'>Card Number</span> 
+            </label>
+            </div>
+
+            <p for='expiry'>Expiry</p>
+        <div class='checkout-field ymc-oneline'>
+            <div class='year-month-cvv'>
+            <select class='country-dropdown'>
+                    <option>Jan</option>
+                    <option>Fab</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Jul</option>
+                    <option>Aug</option>
+                    <option>sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dec</option>
+            </select>
+            <label class='lable-dropdown'></label>
+            </div>
+
+
+            <div class='year-month-cvv'>
+            <select class='my-drop country-dropdown '>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+            </select>
+            </div>
+  
+            <div class='form year-month-cvv cvv-no my-drop' id=''>
+            <input type="text" class='cvv state-zip'  autocomplete="off" required/>
+            <label for="phone" class='lable-name'>
+                <span class='content-name'>CVV</span> 
+                </label>
+            </div>
+
+        </div>
+            <h5>Order Summary</h5> 
+            <div class='detail-info-all'>
+                <p class='detail-info'>Basic Black T-Shirt</p>
+                <p class='detail-info-p'>$16.90</p>
+            </div> 
+            <div class='detail-info-all'>
+                <p class='detail-info'>Total</p>
+                <p class='detail-info-p'>$16.90</p>
+            </div>
+
+            <p class='add_cart'>PLACE ORDER</p> 
+        </div>
+            
+    </div>
+ 
+    
+    <div class='footer' id='footer-sm'>
+       <div class='lable footer-link'><a href="#">Made by Polymer</a></div> 
+        <div class='fo-bottom'><p class='footer-div'>DEMO ONLY</p></div>
+    </div>
+    
+</body>
+</html>
